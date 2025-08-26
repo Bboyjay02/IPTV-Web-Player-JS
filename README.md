@@ -1,85 +1,86 @@
-# IPTV WEB Player
+# IPTV Web Player JS 🎥
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)](LICENSE)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=flat-square)]()
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=flat-square)]()
-[![Multi-Platform](https://img.shields.io/badge/Multi--Platform-Yes-blueviolet?style=flat-square)]()
-[![Web App](https://img.shields.io/badge/Web%20App-Yes-orange?style=flat-square)]()
+![GitHub stars](https://img.shields.io/github/stars/Bboyjay02/IPTV-Web-Player-JS?style=social) ![GitHub forks](https://img.shields.io/github/forks/Bboyjay02/IPTV-Web-Player-JS?style=social) ![GitHub license](https://img.shields.io/github/license/Bboyjay02/IPTV-Web-Player-JS) ![Version](https://img.shields.io/github/v/release/Bboyjay02/IPTV-Web-Player-JS)
 
-**IPTV WEB Player** is a professional, responsive web streaming application developed by **Bocaletto Luca**. It allows users to upload an .m3u or .m3u8 playlist file to dynamically generate a channel list and stream IPTV channels using HLS.js. The app features a modern, icon-enhanced UI with full keyboard and gamepad support for seamless navigation.
+Welcome to the IPTV Web Player JS repository! This project offers a web-based IPTV streaming application developed by Bocaletto Luca. With this player, you can upload your `.m3u` or `.m3u8` playlist files to load your IPTV channels and enjoy seamless streaming through an integrated HLS.js player. 
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Devices](#supported-devices)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Links](#links)
 
 ## Features
 
-- **Playlist Upload:** Easily upload your .m3u or .m3u8 playlist to load IPTV channels.
-- **Dynamic Channel List:** Automatically parse and display channels from your playlist.
-- **HLS Streaming:** Seamless streaming powered by [HLS.js](https://cdn.jsdelivr.net/npm/hls.js@latest).
-- **Responsive, Modern UI:** Beautiful design with professional icons and smooth animations.
-- **Universal Input Support:** 
-  - **Keyboard Controls:**  
-    • **L key:** Open the file input to load a new playlist  
-    • **Arrow Up/Down:** Navigate the channel list  
-    • **Enter:** Select the highlighted channel  
-    • **Space:** Toggle play/pause  
-    • **‘+’ / ‘=’ and ‘-’:** Adjust volume  
-    • **M key:** Toggle mute  
-    • **F key:** Toggle fullscreen  
-    • **P key:** Toggle Picture-in-Picture  
-  - **Gamepad Controls:**  
-    • **D-Pad Up/Down:** Navigate the channel list  
-    • **A Button:** Select the channel  
-    • **B Button:** Toggle play/pause  
-    • **LT / RT:** Volume down/up  
-    • **X Button:** Toggle mute  
-    • **Y Button:** Toggle fullscreen  
-    • **LB:** Trigger file input  
-    • **Back Button:** Toggle Picture-in-Picture  
-- **Visual Feedback:** A spinner overlay is displayed during stream loading.
-
-## Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-- **[HLS.js](https://cdn.jsdelivr.net/npm/hls.js@latest)**
+- **Easy Upload**: Simply drag and drop your `.m3u` or `.m3u8` files.
+- **Responsive Design**: Works well on desktops, tablets, and smartphones.
+- **Universal Input Support**: Control with mouse, touch, keyboard, joypad, or TV remote.
+- **Open Source**: This application is licensed under GPLv3, allowing you to modify and distribute it freely.
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/bocaletto-luca/IPTV-WEB-Player-JS.git
+To get started with IPTV Web Player JS, follow these steps:
 
-2. Navigate to the project directory:
-cd IPTV-WEB-Player
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
-3. Open the `index.html` file in your web browser or run a local web server for full functionality.
+   ```bash
+   git clone https://github.com/Bboyjay02/IPTV-Web-Player-JS.git
+   ```
+
+2. **Navigate to the Directory**: Change to the project directory.
+
+   ```bash
+   cd IPTV-Web-Player-JS
+   ```
+
+3. **Open the Application**: Open the `index.html` file in your web browser.
 
 ## Usage
 
-1. **Upload Playlist:**  
-   Click the file input (or press the **L key** or **LB button** on your gamepad) to select your .m3u or .m3u8 playlist containing IPTV channel links.
-2. **Select Channel:**  
-   The app will parse your playlist and dynamically generate a channel list. Use the mouse, keyboard (Arrow keys and Enter), or gamepad (D-Pad and A button) to navigate and select a channel.
-3. **Stream Video:**  
-   Once a channel is selected, the stream loads via HLS.js. Use on-screen controls or input devices (e.g., Space for pause/resume, volume keys, M for mute, F for fullscreen, P for Picture-in-Picture) to control playback.
+To use the IPTV Web Player:
+
+1. **Upload Your Playlist**: Click on the upload button and select your `.m3u` or `.m3u8` file.
+2. **Select a Channel**: After uploading, you will see a list of channels. Click on a channel to start streaming.
+3. **Control Playback**: Use the provided controls to play, pause, or stop the stream.
+
+## Supported Devices
+
+The IPTV Web Player supports various devices:
+
+- **Desktops**: Windows, macOS, and Linux.
+- **Mobile Devices**: Android and iOS.
+- **Smart TVs**: Any TV with a web browser.
 
 ## Contributing
 
-Contributions are welcome! To contribute:
+We welcome contributions! If you want to help improve the IPTV Web Player, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or fix:
+1. **Fork the Repository**: Click on the fork button at the top right of the page.
+2. **Create a New Branch**: Use the following command to create a new branch.
 
-git checkout -b feature/your-feature-name
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
 
-3. Commit your changes with clear messages:
-git commit -m "Describe your change"
+3. **Make Your Changes**: Implement your changes and test them.
+4. **Commit Your Changes**: Use the following command to commit your changes.
 
-4. Push your branch:
-git push origin feature/your-feature-name
+   ```bash
+   git commit -m "Add Your Feature Description"
+   ```
 
-5. Open a pull request detailing your changes.
+5. **Push to Your Fork**: Push your changes to your fork.
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
 
 ## License
 
@@ -87,4 +88,32 @@ This project is licensed under the GPLv3 License. See the [LICENSE](LICENSE) fil
 
 ## Contact
 
-For questions or feedback, please contact **Bocaletto Luca**.
+For any questions or feedback, please reach out to Bocaletto Luca at [your-email@example.com](mailto:your-email@example.com).
+
+## Links
+
+To download the latest version, visit the [Releases](https://github.com/Bboyjay02/IPTV-Web-Player-JS/releases) section. You can find updates, new features, and bug fixes there.
+
+For further information, please check the [Releases](https://github.com/Bboyjay02/IPTV-Web-Player-JS/releases) section.
+
+---
+
+### Acknowledgments
+
+- **HLS.js**: This project uses HLS.js for streaming.
+- **Open Source Community**: Thanks to all contributors and the open-source community for their support.
+
+---
+
+### Screenshots
+
+![IPTV Web Player Screenshot](https://via.placeholder.com/800x400.png?text=IPTV+Web+Player+Screenshot)
+
+---
+
+### Additional Resources
+
+- [HLS.js Documentation](https://github.com/video-dev/hls.js/)
+- [M3U File Format](https://en.wikipedia.org/wiki/M3U)
+
+Feel free to explore, contribute, and enjoy streaming with the IPTV Web Player JS!
